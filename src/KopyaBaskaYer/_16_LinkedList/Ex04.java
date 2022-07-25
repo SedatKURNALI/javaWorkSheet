@@ -1,4 +1,4 @@
-package _16_LinkedList;
+package KopyaBaskaYer._16_LinkedList;
 
 import java.util.Arrays;
 import java.util.LinkedList;
