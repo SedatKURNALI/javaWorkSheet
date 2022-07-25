@@ -4,9 +4,14 @@ import java.util.Arrays;
 
 public class Array_Q17_SomunCivataKendinYap {
     /* TASK :
- Elinizde bir miktar farkl? boylarda somun ve bu somunlara uyacak civatalar olsun.
- Civatalar? somunlara e?lemek i?in nas?l bir algoritma yazars?n?z.
-
+        Elinizde bir miktar farkli boylarda somun ve bu somunlara uyacak civatalar olsun.
+        Civatalari somunlara eslemek icin nasil bir algoritma yazarsiniz.
+        ornegin:
+        somunlar = {"a-2", "d-15", "f-3", "b-8", "e-9", "c-13"};
+        civatalar = {"c-13", "f-4", "a-1", "d-6", "e-17", "b-4", "g-3"};
+        a somunundan 2, a civatasindan 1 tane ise       a 1 eslesir
+        b somunundan 8, b civatasindan 4 tane ise       b 4 eslesir
+        sadece eslesenler ve eslestigi sayi kadari yazilacak
   */
     public static void main(String[] args) {
         String[] somunlar = {"a-2", "d-15", "f-3", "b-8", "e-9", "c-13"};
@@ -33,7 +38,7 @@ public class Array_Q17_SomunCivataKendinYap {
             for (int j = 0; j < civatalar.length; j++) {
                 if (somunlarName[i].equals(civatalarName[j])) {
                     sayi = Math.min(somunlarSayi[i], civatalarSayi[j]);
-                    System.out.println(somunlarName[i] + " somunundan " + sayi + " tane eslesti");
+                    System.out.println(somunlarName[i] + " somun ve civatasindan " + sayi + " tane eslesti");
                 }
             }
         }
