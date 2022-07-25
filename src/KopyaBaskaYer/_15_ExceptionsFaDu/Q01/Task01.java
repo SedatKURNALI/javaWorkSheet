@@ -1,4 +1,4 @@
-package _15_ExceptionsFaDu.Q01;
+package KopyaBaskaYer._15_ExceptionsFaDu.Q01;
 
 import java.util.Scanner;
 

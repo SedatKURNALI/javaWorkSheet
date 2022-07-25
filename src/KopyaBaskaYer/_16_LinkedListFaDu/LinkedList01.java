@@ -1,4 +1,4 @@
-package _16_LinkedListFaDu;
+package KopyaBaskaYer._16_LinkedListFaDu;
 
 import java.util.Arrays;
 import java.util.LinkedList;
