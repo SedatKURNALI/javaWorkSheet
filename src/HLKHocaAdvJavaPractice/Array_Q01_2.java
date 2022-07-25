@@ -22,12 +22,13 @@ public class Array_Q01_2 {
             System.out.print("Dizinin " + (i + 1) + ". elemanini giriniz :");
             arr[i] = input.nextInt();
         }
-
         System.out.println(Arrays.toString(arr));
-        Arrays.sort(arr);
-
-        System.out.println(Arrays.toString(arr));
-        System.out.println("Dizinin max-min degerleri arasi farki :" + (arr[arr.length - 1] - arr[0]));
-
+        int min = arr[0];
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (min > arr[i]) min = arr[i];
+            if (max < arr[i]) max = arr[i];
+        }
+        System.out.println("Dizinin max-min degerleri arasi farki :" + (max - min));
     }
 }
