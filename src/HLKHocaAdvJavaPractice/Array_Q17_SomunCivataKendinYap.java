@@ -33,7 +33,6 @@ public class Array_Q17_SomunCivataKendinYap {
             civatalarName[i] = civatalar[i].replaceAll("\\d", "").replaceAll("\\W", "");
             civatalarSayi[i] = Integer.parseInt(civatalar[i].replaceAll("\\D", ""));
         }
-
         for (int i = 0; i < somunlarName.length; i++) {
             for (int j = 0; j < civatalar.length; j++) {
                 if (somunlarName[i].equals(civatalarName[j])) {
