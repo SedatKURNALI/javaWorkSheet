@@ -9,14 +9,16 @@ public class Array_Q17_SomunCivataKendinYap {
 
   */
     public static void main(String[] args) {
-        String somunlar[] = {"a-2", "d-15", "f-3", "b-8", "e-9", "c-13"};
-        String civatalar[] = {"c-13", "f-4", "a-1", "d-6", "e-17", "b-4", "g-3"};
+        String[] somunlar = {"a-2", "d-15", "f-3", "b-8", "e-9", "c-13"};
+        String[] civatalar = {"c-13", "f-4", "a-1", "d-6", "e-17", "b-4", "g-3"};
 
         String[] somunlarName = new String[somunlar.length];
         int[] somunlarSayi = new int[somunlar.length];
 
         String[] civatalarName = new String[civatalar.length];
         int[] civatalarSayi = new int[civatalar.length];
+
+        int sayi = 0;
 
         for (int i = 0; i < somunlar.length; i++) {
             somunlarName[i] = somunlar[i].replaceAll("\\d", "").replaceAll("\\W", "");
@@ -26,10 +28,16 @@ public class Array_Q17_SomunCivataKendinYap {
             civatalarName[i] = civatalar[i].replaceAll("\\d", "").replaceAll("\\W", "");
             civatalarSayi[i] = Integer.parseInt(civatalar[i].replaceAll("\\D", ""));
         }
-        System.out.println(Arrays.toString(somunlarName));
-        System.out.println(Arrays.toString(somunlarSayi));
 
-        System.out.println(Arrays.toString(civatalarName));
-        System.out.println(Arrays.toString(civatalarSayi));
+        for (int i = 0; i < somunlarName.length; i++) {
+            for (int j = 0; j < civatalar.length; j++) {
+                if (somunlarName[i].equals(civatalarName[j])) {
+                    sayi = Math.min(somunlarSayi[i], civatalarSayi[j]);
+                    System.out.println(somunlarName[i] + " somunundan " + sayi + " tane eslesti");
+                }
+            }
+        }
+        System.out.println(Arrays.toString(somunlar));
+        System.out.println(Arrays.toString(civatalar));
     }
 }
