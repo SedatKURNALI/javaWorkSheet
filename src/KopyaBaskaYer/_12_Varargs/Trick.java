@@ -1,4 +1,4 @@
-package _12_Varargs;
+package KopyaBaskaYer._12_Varargs;
 
 public class Trick {
 	public static void main(String[] args) {

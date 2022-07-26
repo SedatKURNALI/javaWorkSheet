@@ -4,6 +4,7 @@ public class RegExpString {
 
     public static void main(String[] args) {
 
+        // regex:""  icinde yazan bazi kurallar dikkat edilerek replaceAll icin de kullanilabilir
         // str.matches(pattern);
         // str'nin pattern'a uygun olup olmadigini kontrol eder. sonuc boolean döner
 
@@ -74,8 +75,7 @@ public class RegExpString {
         // [a-zA-Z0-9]{6,7}  a-z, A-Z ve 0-9 arasi toplam 6 veya 7 karakter olmali
         System.out.println("{n,} quantifier ....");
         System.out.println("+++++" + "kkv32e".matches("[a-zA-Z0-9]{6,7}")); // true
-        System.out.println("kkv32ez6".matches("[a-zA-Z0-9]{6,7}")); // false, 8 karakterz
-
+        System.out.println("kkv32ez6".matches("[a-zA-Z0-9]{6,7}")); // false, 8 karakter
 
         System.out.println("by character classes and quantifiers ...");
         // ilk karakter 789 ve kalan 9 karakter 0-9 arasi toplam 10 karakter olmali,

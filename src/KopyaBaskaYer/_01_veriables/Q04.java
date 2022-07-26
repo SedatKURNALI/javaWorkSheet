@@ -5,12 +5,12 @@ public class Q04 {
     public static void main(String[] args) {
         System.out.println("-------------------Arttırma");
         int a = 1;
-        System.out.println("a : "+(++a)); //2
-        System.out.println("a : "+(a++)); //2
-        System.out.println("a : "+a);  //3
+        System.out.println("a : " + (++a)); //2
+        System.out.println("a : " + (a++)); //2
+        System.out.println("a : " + a);  //3
 
-        a=5;
-        System.out.println("son hali :"+(a++ + ++a)) ;
+        a = 5;
+        System.out.println("son hali :" + (a++ + ++a));
         // 5 + 7 = 12
 
 
@@ -53,8 +53,7 @@ public class Q04 {
         System.out.println("-----------------------------------");
 
 
-
-        int k=5;
+        int k = 5;
 
         int sonuc = ++k + k++ + k++ + --k + k-- + k;
         //  6  + 6 +  7   + 7 + 7 + 6 = 39   k=6

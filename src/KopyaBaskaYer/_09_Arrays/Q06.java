@@ -1,4 +1,4 @@
-package _09_Arrays;
+package KopyaBaskaYer._09_Arrays;
 
 import java.util.Arrays;
 

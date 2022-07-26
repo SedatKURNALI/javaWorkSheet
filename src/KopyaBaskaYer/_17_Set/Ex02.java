@@ -1,4 +1,4 @@
-package _17_Set;
+package KopyaBaskaYer._17_Set;
 
 import java.util.ArrayList;
 import java.util.Collections;

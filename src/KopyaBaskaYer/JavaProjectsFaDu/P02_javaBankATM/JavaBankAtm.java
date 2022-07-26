@@ -1,4 +1,4 @@
-package JavaProjectsFaDu.P02_javaBankATM;
+package KopyaBaskaYer.JavaProjectsFaDu.P02_javaBankATM;
 
 class JavaBankAtm {
 

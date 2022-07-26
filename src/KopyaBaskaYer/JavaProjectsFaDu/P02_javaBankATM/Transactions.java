@@ -1,8 +1,8 @@
-package JavaProjectsFaDu.P02_javaBankATM;
+package KopyaBaskaYer.JavaProjectsFaDu.P02_javaBankATM;
 
 import java.util.Scanner;
 
-import static JavaProjectsFaDu.P02_javaBankATM.Variables.controlCount;
+import static KopyaBaskaYer.JavaProjectsFaDu.P02_javaBankATM.Variables.controlCount;
 
 public class Transactions {
 

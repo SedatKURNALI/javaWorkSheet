@@ -1,4 +1,4 @@
-package debug_FaDu;
+package KopyaBaskaYer.debug_FaDu;
 
 /*
 Debug yapiyorsan, kodu anlamadin demektir.

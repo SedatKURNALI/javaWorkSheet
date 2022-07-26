@@ -1,4 +1,4 @@
-package _14_EncapsulationFaDu.Q01;
+package KopyaBaskaYer._14_EncapsulationFaDu.Q01;
 
 public class Araba { // POJO : planning old java object -> modal class
 

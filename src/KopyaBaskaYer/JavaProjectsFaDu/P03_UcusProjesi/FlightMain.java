@@ -1,7 +1,5 @@
 package JavaProjectsFaDu.P03_UcusProjesi;
 
-import JavaProjectsFaDu.P02_javaBankATM.Variables;
-
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;

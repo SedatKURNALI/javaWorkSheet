@@ -1,4 +1,4 @@
-package _17_SetFaDu;
+package KopyaBaskaYer._17_SetFaDu;
 
 public class HashSet03 {
     /*

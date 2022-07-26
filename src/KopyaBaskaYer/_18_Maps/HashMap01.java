@@ -1,4 +1,4 @@
-package _18_Maps;
+package KopyaBaskaYer._18_Maps;
 
 import java.util.HashMap;
 

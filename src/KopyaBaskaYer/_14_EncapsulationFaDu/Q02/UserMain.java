@@ -1,4 +1,4 @@
-package _14_EncapsulationFaDu.Q02;
+package KopyaBaskaYer._14_EncapsulationFaDu.Q02;
 
 import java.util.Scanner;
 

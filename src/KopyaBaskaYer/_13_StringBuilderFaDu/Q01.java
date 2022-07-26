@@ -1,4 +1,4 @@
-package _13_StringBuilderFaDu;
+package KopyaBaskaYer._13_StringBuilderFaDu;
 
 import java.util.Scanner;
 

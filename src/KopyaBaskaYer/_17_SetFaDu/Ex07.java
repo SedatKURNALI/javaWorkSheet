@@ -1,4 +1,4 @@
-package _17_SetFaDu;
+package KopyaBaskaYer._17_SetFaDu;
 
 import java.util.HashSet;
 import java.util.Set;

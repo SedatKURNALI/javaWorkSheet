@@ -1,4 +1,4 @@
-package _10_ListFaDu;
+package KopyaBaskaYer._10_ListFaDu;
 
 public class Q07_ArraySimetrikmi {
 

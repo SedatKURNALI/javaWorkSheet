@@ -1,4 +1,4 @@
-package _09_ArraysFaDu;
+package KopyaBaskaYer._09_ArraysFaDu;
 
 public class Q07_EnBuyukSayiyiBul {
 

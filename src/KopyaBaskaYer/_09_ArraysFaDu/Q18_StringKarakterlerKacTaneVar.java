@@ -1,4 +1,4 @@
-package _09_ArraysFaDu;
+package KopyaBaskaYer._09_ArraysFaDu;
 
 import java.util.Arrays;
 import java.util.Scanner;

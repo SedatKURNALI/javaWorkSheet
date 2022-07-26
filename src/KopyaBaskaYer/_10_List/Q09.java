@@ -1,4 +1,4 @@
-package _10_List;
+package KopyaBaskaYer._10_List;
 
 import java.util.Arrays;
 import java.util.Scanner;

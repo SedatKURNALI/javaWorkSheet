@@ -48,7 +48,7 @@ public class JavaMathClassMethods {
             System.out.println("Java Math.Random Sayi: " + Math.random());
         }
 
-        //java.util.Random Kullanimi
+        // java.util.Random Kullanimi
         Random rnd = new Random();
         for (int adet = 0; adet< 10; adet++){
             int rSayi = rnd.nextInt(100);

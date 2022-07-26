@@ -1,4 +1,4 @@
-package _14_Encapsulation.Q01;
+package KopyaBaskaYer._14_Encapsulation.Q01;
 
 public class ArabaMain {
     public static void main(String[] args) {

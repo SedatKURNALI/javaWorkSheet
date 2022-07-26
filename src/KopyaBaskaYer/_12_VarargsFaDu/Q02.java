@@ -1,4 +1,4 @@
-package _12_VarargsFaDu;
+package KopyaBaskaYer._12_VarargsFaDu;
 
 import java.util.Scanner;
 

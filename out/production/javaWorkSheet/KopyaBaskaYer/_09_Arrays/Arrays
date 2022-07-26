@@ -74,6 +74,6 @@
     equals() method’u degerleri ve indexleri birlirkte kontrol edip, boolean bir deger return eder.
 
     Bir String nasil array’e cevrilir ?
-    split() method’u String’e ait bir method’dur ve belirledigimiz ayirac’_09_Arrays.Q18 gore String’i parcalara ayirip bir Array’e cevirir.
+    split() method’u String’e ait bir method’dur ve belirledigimiz ayirac’KopyaBaskaYer._09_Arrays.Q18 gore String’i parcalara ayirip bir Array’e cevirir.
 
 

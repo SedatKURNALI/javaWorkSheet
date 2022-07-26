@@ -1,4 +1,4 @@
-package _14_Encapsulation.Q01;
+package KopyaBaskaYer._14_Encapsulation.Q01;
 
 public class Araba {// POJO : planing old java object->modal class
    private String model="haluk";

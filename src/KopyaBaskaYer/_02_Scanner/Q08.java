@@ -26,7 +26,7 @@ public class Q08 {
         System.out.print("Final: ");
         finalnot = scanner.nextInt();
 
-        double sonuc = ((vize1 + vize2) / 2) * 0.3 + (finalnot * 0.7);
+        double sonuc = (((double)vize1 + vize2) / 2) * 0.3 + (finalnot * 0.7);
         System.out.print("ders notunuz: " + sonuc);
     }
 }

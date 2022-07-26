@@ -15,7 +15,7 @@ public class Q09 {
         b sayısını giriniz: 3
         c sayısını giriniz: 1
         sonuç : 5.333333333333333
-        */
+    */
         Scanner oku = new Scanner(System.in);
 
         double a;

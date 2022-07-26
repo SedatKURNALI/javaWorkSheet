@@ -1,4 +1,4 @@
-package _13_StringBuilder;
+package KopyaBaskaYer._13_StringBuilder;
 
 public class Q01 {
     public static void main(String[] args) {

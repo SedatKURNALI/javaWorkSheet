@@ -1,4 +1,4 @@
-package _10_List;
+package KopyaBaskaYer._10_List;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
