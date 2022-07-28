@@ -2,10 +2,10 @@ package CalismaSorulari01;
 
 public class Q01_1 {
     /*
-            1---Sayýn?n Say? de?erlerinin toplamas?n? yapan Java kodu yaz?n?z.
+            1---SayÄ±n?n Say? de?erlerinin toplamas?n? yapan Java kodu yaz?n?z.
             Test Data
             34
-            Beklenen Ç?kt?
+            Beklenen Ã‡?kt?
             7
     */
     public static void main(String[] args) {

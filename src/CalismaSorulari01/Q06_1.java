@@ -5,26 +5,26 @@ public class Q06_1 {
 
      6----     Kullan?c?dan bir harf girmesini isteyiniz. Girilen harf sesli ise Sesli harf oldu?unu,
            de?ilse sessiz harf oldu?unu ekrana yazd?rs?n. Girdi?i de?er harf de?ilse yada
-            1 karakterden fazla ise hata mesaj? göstersin. (Test girilen harfi büyük yada küçüklü?üne duyarl?d?r.)
+            1 karakterden fazla ise hata mesaj? gï·¿stersin. (Test girilen harfi bï·¿yï·¿k yada kï·¿ï·¿ï·¿klï·¿?ï·¿ne duyarl?d?r.)
 
     Sesli harfler: a,e,i,o,u
 
     Test Data:
     a
 
-    Beklenen Ç?kt?:
+    Beklenen ï·¿?kt?:
     a harfi sesli harfdir.
 
     Test Data:
     d
 
-    Beklenen Ç?kt?:
+    Beklenen ï·¿?kt?:
     d harfi sesiz harftir.
 
     Test Data:
     we  yada %
 
-    Beklenen Ç?kt?:
+    Beklenen ï·¿?kt?:
     Yanlis karakter girdiniz!
     */
     public static void main(String[] args) {

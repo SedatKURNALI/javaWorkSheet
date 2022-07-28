@@ -12,16 +12,16 @@ public class Q02_InnerArrayToplam {
         input {{10,20,30},{4},{6,7,20}}==> output ={60,4,33}
 
          */
-        int arr[][] = {{10,20,30},{4},{6,7,20}};
+        int arr[][] = {{10, 20, 30}, {4}, {6, 7, 20}};
         int arr2[] = new int[arr.length];
-        int toplam=0;
+        int toplam = 0;
 
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-                toplam+= arr[i][j];
-                arr2[i]=toplam;
+                toplam += arr[i][j];
             }
-            toplam=0;
+            arr2[i] = toplam;
+            toplam = 0;
         }
         System.out.println(Arrays.toString(arr2));
 
