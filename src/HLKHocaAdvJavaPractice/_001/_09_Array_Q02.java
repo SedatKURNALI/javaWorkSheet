@@ -2,7 +2,7 @@ package HLKHocaAdvJavaPractice._001;
 
 import java.util.Arrays;
 
-public class _09_Arrays_Q02 {
+public class _09_Array_Q02 {
     public static void main(String[] args) {
          /* TASK :
         multidimensional arrayin iç arraylerindeki tüm elemanlar?n toplam?n? birer birer bulan
