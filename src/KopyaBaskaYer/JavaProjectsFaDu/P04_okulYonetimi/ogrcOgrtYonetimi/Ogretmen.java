@@ -1,4 +1,4 @@
-package JavaProjectsFaDu.P04_okulYonetimi.ogrcOgrtYonetimi;
+package KopyaBaskaYer.JavaProjectsFaDu.P04_okulYonetimi.ogrcOgrtYonetimi;
 
 public class Ogretmen extends Kisi {
     // 1- Variables

@@ -1,4 +1,4 @@
-package JavaProjectsFaDu.P05_HalukMarket;
+package KopyaBaskaYer.JavaProjectsFaDu.P05_HalukMarket;
 
 import java.util.ArrayList;
 import java.util.Arrays;

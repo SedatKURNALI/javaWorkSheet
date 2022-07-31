@@ -1,4 +1,4 @@
-package JavaProjects.P10_aracKiralama;
+package KopyaBaskaYer.JavaProjects.P10_aracKiralama;
 
 public class Runner {
     public static void main(String[] args) {

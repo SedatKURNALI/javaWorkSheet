@@ -1,4 +1,4 @@
-package JavaProjectsFaDu.P11_depoYonetimiEng;
+package KopyaBaskaYer.JavaProjectsFaDu.P11_depoYonetimiEng;
 
 import static JavaProjectsFaDu.P11_depoYonetimiEng.Transactions.addedProductsMap;
 import static JavaProjectsFaDu.P11_depoYonetimiEng.Transactions.scan;

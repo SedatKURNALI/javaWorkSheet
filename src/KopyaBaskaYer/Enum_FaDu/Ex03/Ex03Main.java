@@ -1,4 +1,4 @@
-package Enum_FaDu.Ex03;
+package KopyaBaskaYer.Enum_FaDu.Ex03;
 
 import java.util.ArrayList;
 

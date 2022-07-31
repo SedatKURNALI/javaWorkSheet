@@ -1,4 +1,4 @@
-package JavaProjectsFaDu.P04_okulYonetimi.ogrcOgrtYonetimi;
+package KopyaBaskaYer.JavaProjectsFaDu.P04_okulYonetimi.ogrcOgrtYonetimi;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package generics_FaDu;
+package KopyaBaskaYer.generics_FaDu;
 
 public class G07genericInterface {  // Main class (public ve inner degil)
     public static void main(String[] args) {

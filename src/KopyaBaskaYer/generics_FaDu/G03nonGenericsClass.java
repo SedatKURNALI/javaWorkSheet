@@ -1,4 +1,4 @@
-package generics_FaDu;
+package KopyaBaskaYer.generics_FaDu;
 
 import java.util.ArrayList;
 import java.util.List;

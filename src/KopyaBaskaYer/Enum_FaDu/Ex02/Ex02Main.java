@@ -1,4 +1,4 @@
-package Enum_FaDu.Ex02;
+package KopyaBaskaYer.Enum_FaDu.Ex02;
 
 public class Ex02Main {
     public static void main(String[] args) {

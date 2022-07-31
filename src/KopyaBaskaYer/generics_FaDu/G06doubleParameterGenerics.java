@@ -1,4 +1,4 @@
-package generics_FaDu;
+package KopyaBaskaYer.generics_FaDu;
 
 public class G06doubleParameterGenerics {
     public static void main(String[] args) {

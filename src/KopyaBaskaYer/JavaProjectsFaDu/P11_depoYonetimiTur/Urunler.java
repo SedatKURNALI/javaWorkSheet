@@ -1,4 +1,4 @@
-package JavaProjectsFaDu.P11_depoYonetimiTur;
+package KopyaBaskaYer.JavaProjectsFaDu.P11_depoYonetimiTur;
 
 import java.util.HashMap;
 import java.util.Map;

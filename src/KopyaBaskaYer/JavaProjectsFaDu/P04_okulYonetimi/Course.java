@@ -1,4 +1,4 @@
-package JavaProjectsFaDu.P04_okulYonetimi;
+package KopyaBaskaYer.JavaProjectsFaDu.P04_okulYonetimi;
 
 public class Course {
 

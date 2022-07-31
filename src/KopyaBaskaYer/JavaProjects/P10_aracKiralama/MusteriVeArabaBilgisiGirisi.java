@@ -1,4 +1,4 @@
-package JavaProjects.P10_aracKiralama;
+package KopyaBaskaYer.JavaProjects.P10_aracKiralama;
 
 import java.util.ArrayList;
 import java.util.List;

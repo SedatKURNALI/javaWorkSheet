@@ -1,4 +1,4 @@
-package _15_ExceptionsFaDu.Q03;
+package KopyaBaskaYer._15_ExceptionsFaDu.Q03;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package _15_ExceptionsFaDu.TryCatchSample;
+package KopyaBaskaYer._15_ExceptionsFaDu.TryCatchSample;
 
 public class Runner {
     public static void main(String[] args) {

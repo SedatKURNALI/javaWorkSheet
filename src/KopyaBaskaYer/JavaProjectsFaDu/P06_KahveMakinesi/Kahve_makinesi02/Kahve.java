@@ -1,4 +1,4 @@
-package JavaProjectsFaDu.P06_KahveMakinesi.Kahve_makinesi02;
+package KopyaBaskaYer.JavaProjectsFaDu.P06_KahveMakinesi.Kahve_makinesi02;
 
 public class Kahve {
     private String kahveNo;

@@ -1,11 +1,11 @@
-package JavaProjectsFaDu.P03_UcusProjesi;
+package KopyaBaskaYer.JavaProjectsFaDu.P03_UcusProjesi;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 
-import static JavaProjectsFaDu.P03_UcusProjesi.FlightVariables.destCitiesNameArr;
-import static JavaProjectsFaDu.P03_UcusProjesi.FlightVariables.scan;
+import static KopyaBaskaYer.JavaProjectsFaDu.P03_UcusProjesi.FlightVariables.destCitiesNameArr;
+import static KopyaBaskaYer.JavaProjectsFaDu.P03_UcusProjesi.FlightVariables.scan;
 
 
 public class FlightMain {
@@ -28,16 +28,16 @@ public class FlightMain {
 
         // getting information from user
         System.out.print("Please select your  destination : ");
-        pax1.userDestination=FlightVariables.scan.next().toUpperCase();
+        pax1.userDestination= scan.next().toUpperCase();
         System.out.print("Please enter your name : ");
         scan.nextLine(); // added to prevent pass of next scan
-        pax1.name = FlightVariables.scan.nextLine();
+        pax1.name = scan.nextLine();
         System.out.print("Please enter your surname : ");
-        pax1.surname = FlightVariables.scan.nextLine();
+        pax1.surname = scan.nextLine();
         System.out.print("Please enter your birth year : ");
         pax1.age= LocalDateTime.now().getYear()-scan.nextInt();
         System.out.print("Please select : One way ticket(1) \t Round Trip Ticket(2) : ");
-        pax1.way = FlightVariables.scan.nextInt();
+        pax1.way = scan.nextInt();
         String note = pax1.way==1 ? "One Way" : "Round Trip";
 
         // calculating ticket price based on user destionation, age and oneway or roundtrip selection

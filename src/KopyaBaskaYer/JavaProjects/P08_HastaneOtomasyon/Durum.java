@@ -1,4 +1,4 @@
-package JavaProjects.P08_HastaneOtomasyon;
+package KopyaBaskaYer.JavaProjects.P08_HastaneOtomasyon;
 
 public class Durum {
 

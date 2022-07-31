@@ -1,4 +1,4 @@
-package _15_ExceptionsFaDu;
+package KopyaBaskaYer._15_ExceptionsFaDu;
 
 public class Exceptions {
 /*

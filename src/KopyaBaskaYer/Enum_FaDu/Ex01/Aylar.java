@@ -1,4 +1,4 @@
-package Enum_FaDu.Ex01;
+package KopyaBaskaYer.Enum_FaDu.Ex01;
 
 public enum Aylar {
 

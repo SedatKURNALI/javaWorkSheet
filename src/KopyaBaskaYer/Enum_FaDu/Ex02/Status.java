@@ -1,4 +1,4 @@
-package Enum_FaDu.Ex02;
+package KopyaBaskaYer.Enum_FaDu.Ex02;
 
 public enum Status {
 

@@ -1,4 +1,4 @@
-package generics_FaDu;
+package KopyaBaskaYer.generics_FaDu;
 
 public class G04genericClass <T> { // T : type parametric pojo class declaration
 

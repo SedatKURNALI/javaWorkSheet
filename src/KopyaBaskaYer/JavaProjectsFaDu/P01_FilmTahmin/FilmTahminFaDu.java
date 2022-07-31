@@ -1,4 +1,4 @@
-package JavaProjectsFaDu.P01_FilmTahmin;
+package KopyaBaskaYer.JavaProjectsFaDu.P01_FilmTahmin;
 
 import java.util.ArrayList;
 import java.util.Arrays;

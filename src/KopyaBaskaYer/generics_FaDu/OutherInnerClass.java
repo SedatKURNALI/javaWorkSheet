@@ -1,4 +1,4 @@
-package generics_FaDu;
+package KopyaBaskaYer.generics_FaDu;
 
 import org.w3c.dom.ls.LSOutput;
 

@@ -1,4 +1,4 @@
-package JavaProjectsFaDu.P11_depoYonetimiTur;
+package KopyaBaskaYer.JavaProjectsFaDu.P11_depoYonetimiTur;
 
 
 import static JavaProjectsFaDu.P11_depoYonetimiTur.Islemler.depoYonetimSistemi;

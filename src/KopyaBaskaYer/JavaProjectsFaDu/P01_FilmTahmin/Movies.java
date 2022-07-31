@@ -1,4 +1,4 @@
-package JavaProjectsFaDu.P01_FilmTahmin;
+package KopyaBaskaYer.JavaProjectsFaDu.P01_FilmTahmin;
 
 public class Movies {
 

@@ -1,4 +1,4 @@
-package JavaProjectsFaDu.P11_depoYonetimiHalid;
+package KopyaBaskaYer.JavaProjectsFaDu.P11_depoYonetimiHalid;
 
 import KopyaBaskaYer.JavaProjects.P11_depoYonetimi.depoYonetimi01.Urunler;
 

@@ -1,4 +1,4 @@
-package JavaProjectsFaDu.P11_depoYonetimiHalid;
+package KopyaBaskaYer.JavaProjectsFaDu.P11_depoYonetimiHalid;
 
 import java.util.Collection;
 import java.util.Set;

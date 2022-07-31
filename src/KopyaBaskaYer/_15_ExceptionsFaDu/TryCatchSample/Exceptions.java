@@ -1,4 +1,4 @@
-package _15_ExceptionsFaDu.TryCatchSample;
+package KopyaBaskaYer._15_ExceptionsFaDu.TryCatchSample;
 
 public interface Exceptions {
 

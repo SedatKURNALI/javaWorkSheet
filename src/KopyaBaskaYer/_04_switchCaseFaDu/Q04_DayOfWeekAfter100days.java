@@ -1,4 +1,4 @@
-package _04_switchCaseFaDu;
+package KopyaBaskaYer._04_switchCaseFaDu;
 
 import java.util.Scanner;
 

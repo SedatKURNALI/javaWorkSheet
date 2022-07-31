@@ -1,4 +1,4 @@
-package JavaProjects.P07_GeometrikHesaplama;
+package KopyaBaskaYer.JavaProjects.P07_GeometrikHesaplama;
 
 public class Dikdortgen extends Sekil {
 

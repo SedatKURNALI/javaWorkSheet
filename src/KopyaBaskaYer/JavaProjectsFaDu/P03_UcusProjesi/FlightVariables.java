@@ -1,4 +1,4 @@
-package JavaProjectsFaDu.P03_UcusProjesi;
+package KopyaBaskaYer.JavaProjectsFaDu.P03_UcusProjesi;
 
 import java.util.ArrayList;
 import java.util.Scanner;

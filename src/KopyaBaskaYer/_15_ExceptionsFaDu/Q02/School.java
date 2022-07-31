@@ -1,4 +1,4 @@
-package _15_ExceptionsFaDu.Q02;
+package KopyaBaskaYer._15_ExceptionsFaDu.Q02;
 
 
 import java.util.ArrayList;

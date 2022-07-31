@@ -1,4 +1,4 @@
-package JavaProjectsFaDu.P11_depoYonetimiTur;
+package KopyaBaskaYer.JavaProjectsFaDu.P11_depoYonetimiTur;
 
 public class MainRunner {
     public static void main(String[] args) {
