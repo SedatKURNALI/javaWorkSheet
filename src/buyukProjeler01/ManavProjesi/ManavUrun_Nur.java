@@ -5,16 +5,13 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ManavUrun_Nur {
-
     static List<Double> sepet = new ArrayList<>();
     static List<String> sepetIsim = new ArrayList<>();
     static Scanner scan = new Scanner(System.in);
 
-
     public static void main(String[] args) {
 
-
-        String manavUrun[][] = new String[10][2];
+        String[][] manavUrun = new String[10][2];
         manavUrun[0][0] = "Karpuz";
         manavUrun[0][1] = "9.0 TL";
         manavUrun[1][0] = "Kavun";
@@ -36,7 +33,6 @@ public class ManavUrun_Nur {
         manavUrun[9][0] = "Havuc";
         manavUrun[9][1] = "12.70 TL";
 
-
         System.out.println("Manavimiza Hosgeldiniz");
         for (int i = 0; i < manavUrun.length; i++) {
             System.out.println((i + 1) + " nolu urun : " + manavUrun[i][0] + "  fiyati : " + manavUrun[i][1]);
@@ -49,7 +45,7 @@ public class ManavUrun_Nur {
         sepet.add(Double.parseDouble(manavUrun[urunNo - 1][1].replace(" TL", "")) * urunAdet);
         sepetIsim.add(manavUrun[urunNo - 1][0]);
 
-        System.out.println("Seçti?iniz ürün sepete eklendi");
+        System.out.println("Seçtiginiz ürün sepete eklendi");
         System.out.println("sepet: " + sepet.get(0) + "TL" + " " + sepetIsim.get(0) + " " + "aldiniz");
 
         System.out.println();
@@ -81,5 +77,3 @@ public class ManavUrun_Nur {
         }
     }
 }
-
-

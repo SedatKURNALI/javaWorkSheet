@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class ATM {
 
     static Scanner scan = new Scanner(System.in);
+    static String kartNo = "";
+    static String kartSifresi = "";
 
     public static void main(String[] args) {
         /*  *Kullaniciya giri? için kart numarasi ve ?ifresini isteyin, eger herhangi birini yanlis
@@ -17,8 +19,7 @@ public class ATM {
             eger de?ilse menü ekranina geri donsun.
             Sifre de?i?tirme i?leminde mevcut ?ifreyi teyit ettikten sonra, sifre de?i?iklik i?lemini yapmali,
         */
-        String kartNo = "";
-        String kartSifresi = "";
+
         int kartVePara = -1;
         int sayac = 0;
         do {
@@ -37,7 +38,6 @@ public class ATM {
             System.out.println("iyi gunler kartiniz bloke oldu");
         } else {
             menu(kartVePara);
-
         }
     }
 
@@ -46,7 +46,9 @@ public class ATM {
         // Bakiye sorgula, para yatirma, para çekme, para gönderme, sifre de?i?tirme ve cikis
         String iban = "";
         int para2 = 0;
-        String sifre = "";
+        String sifre1 = "";
+        String sifre2 = "";
+        String eskiSifre = "";
         System.out.println("1 - Bakiye sorgula");
         System.out.println("2 - Para yatirma");
         System.out.println("3 - Para Cekme");
@@ -96,10 +98,22 @@ public class ATM {
                 menu(para);
                 break;
             case "5":
-                System.out.println("Yeni sifre giriniz");
-                sifre = scan.nextLine();
-                // yapamadim
-
+                System.out.println("Eski sifrenizi giriniz");
+                eskiSifre = scan.nextLine();
+                if (eskiSifre.equals(kartSifresi)) {
+                    System.out.println("Yeni sifre giriniz");
+                    sifre1 = scan.nextLine();
+                    System.out.println("Yeni sifreyi tekrar giriniz");
+                    sifre2 = scan.nextLine();
+                    if (sifre1.equals(sifre2)) {
+                        System.out.println("Yeni sifreniz basari ile degitirildi");
+                        kartSifresi = sifre1;
+                    } else {
+                        System.out.println("Yeni sifreyi yanlis girdiginiz icin degistirilmedi");
+                    }
+                } else {
+                    System.out.println("Eski sifrenizi yanlis girdiginiz icin degisiklik yapilamadi");
+                }
                 menu(para);
                 break;
             case "6":
